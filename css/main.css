@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+.page-wrapper {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.search{
+    display: flex;
+}
+
+.my_button{
+    margin-left: 15px;
+}
+
+.main{
+    display: flex; 
+    margin-top: 15px;
+}
+
+.carousel{
+ margin-left: 55px;
+}
+
+.list{
+    width: 40%;
+}
+
+.carousel{
+    display: none;
+}
+
+.control {
+    width: 5%;
+}
+
+
+video{
+    margin-left:5%;
+    margin-right: 5%;
+    width: 90%;
+    height:100% ;
+}
